@@ -1,3 +1,16 @@
 article{
     color: chocolate;
+    font-size: 30px;    /* el font-size especifica el tamaño de fuente */
+}
+
+.parrafo{   /* con el . nos referimos al class de un elemento */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Estas son las fuentes que se usaran para este texto*/
+    font-size: 40px;
+    color: coral;
+}
+
+#parrafo2{  /* el # se usa para referirce al id de un elemento*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: darkslategray;
 }
