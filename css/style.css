@@ -1,3 +1,12 @@
+    /** "*" es el selector universal, sirve para setear los valores 
+    por defecto de las propiedades de todos los elementos, ya que el navegador agrega muchas
+    propiedades por defecto **/
+
+* {
+    box-sizing: border-box;     /** hace que la suma del with y el padding sea igual al ancho del navegador para que no haya scroll horizontal **/ 
+    margin: 0px;
+    padding: 0px;
+}
 article{
     color: chocolate;
     font-size: 30px;    /* el font-size especifica el tamaño de fuente */
@@ -17,13 +26,13 @@ article{
 
 .main-nav {
     margin-top: 10px;
+    padding: 10px 0px 0px 0px;
     list-style: none;   /**quita los puntos a la lista desordenada**/
     background-color: #7fa9ff;
-    padding-top: 10px;
     text-align: center; /**centra el texto que en este caso es de el elemento "a" dentro de main-nav__item**/
 }
 .main-nav__item {
-    display: inline-block;
+    display: inline-block;  /** hace que los elementos se pongan en linea uno al lado del otro **/
     height: 30px;
 }
 .main-nav__item a {     /** la "a" hace referencia al elemento a dentro de main-nav__item para ser mas especifico**/
@@ -45,6 +54,6 @@ de un estado especial de un elemento. */
 /*Pseudo elementos: Define el estilo de una
 parte especifica de un elemento.*/
 
-.main-nav__item a::after {  /*  ::after es un pseudo elemento que va despes de, en este caso, el main-nav__item*/
+.main-nav__item a::after {  /*  ::after es un pseudo elemento que te permite agregar un contenido despes del elemento, en este caso, "a" */
     content: " | ";
 }
