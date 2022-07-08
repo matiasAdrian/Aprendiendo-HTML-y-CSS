@@ -44,10 +44,10 @@ article{
 /* Pseudo clases: Define el estilo
 de un estado especial de un elemento. */
 
-.main-nav__item a:hover {   /**hover es cuando el mouse esta ensima del elemento**/
+.main-nav a:hover {   /**hover es cuando el mouse esta ensima del elemento**/
     color: blue;
 }
-.main-nav__item a:active {  /**active es cuando clickeas el elemento**/
+.main-nav a:active {  /**active es cuando clickeas el elemento**/
     color: red;
 }
 
