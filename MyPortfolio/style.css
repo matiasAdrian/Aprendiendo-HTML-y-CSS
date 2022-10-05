@@ -1,13 +1,16 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
 
-.grid {
+.header {
     display: grid;
     grid-template-columns: 20% 80%;
-    background-color: #333;
+
+    background-color: #000000;
     padding: 20px;
-    border-radius: 20px;
 }
 
 .item {
@@ -18,7 +21,23 @@
 .title {
     color: white ;
     font-size: 3rem;
-    font-weight: bolder;
+    font-weight: 300;
     align-self: center;
     justify-self: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main p {
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+}
+
+.main .coding-img {
+    height: 400px;
+    justify-content: center;
 }
