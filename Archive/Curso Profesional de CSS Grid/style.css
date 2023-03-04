@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #00011f;
+}
+
+.container {
+    margin: auto;
+    padding: 10px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-image: linear-gradient(to bottom, #0b0c39, #004684, #0083a0, #00bd78, #a7ea14);
+    gap: 10px;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header h1 {
+    color: red;
+    font-size: 100px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.city {
+    background-image: url("City.jfif");
+}
+
+.eva {
+    background-image: url("Poster_eva.jfif");
+}
+
+.mood {
+    background-image: url("Mood.jfif");
+    background-color: #000000;
+    border: 4px solid yellowgreen;
+    display: grid;
+    align-items: center;
+    justify-items: end;
+}
+
+.mood h2 {
+    width: min-content;
+    color: white;
+    font-size: 113px;
+}
+
+.text {
+    padding: 11px;
+    color: #00ffdd;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.rain {
+    background-image: url("Rain.jfif");
+}

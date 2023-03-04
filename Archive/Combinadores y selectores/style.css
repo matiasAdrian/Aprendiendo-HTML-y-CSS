@@ -1,0 +1,15 @@
+.hermanos-adjacentes h3 + h2 {
+    color: red;
+}
+
+.hermanos-generales h3 ~ h2 {
+    color: orange;
+}
+
+.hijos div > p {
+    color: rgb(67, 150, 0);
+}
+
+.descendientes h2 {
+    color: brown;
+}

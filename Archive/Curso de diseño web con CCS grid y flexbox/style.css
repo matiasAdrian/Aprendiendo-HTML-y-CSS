@@ -1,0 +1,14 @@
+.Block {
+    background-color: green;
+    display: block;
+}
+
+.Grid {
+    background-color: blue;
+    display: grid;
+}
+
+.inline {
+    background-color: rebeccapurple;
+    display: inline;
+}
